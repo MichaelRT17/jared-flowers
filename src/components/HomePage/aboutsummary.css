@@ -1,0 +1,28 @@
+.about-holder {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+    width: 360px;
+    margin: 0 auto;
+    color: #423D4F;
+}
+
+.divider {
+    width: 360px;
+    color: #423D4F;
+}
+
+.link {
+    cursor: pointer;
+}
+
+@media(min-width: 600px){
+    .about-holder {
+        width: 800px;
+    }
+    .divider {
+        width: 800px;
+    }
+}

@@ -6,7 +6,6 @@
     justify-content: space-between;
     align-items: center;
     overflow: hidden;
-    box-shadow: 10px 10px 20px #423D4F
 }
 
 .logo-holder {
@@ -27,6 +26,10 @@
     cursor: pointer;
     color: #423D4F;
     opacity: 1;
+}
+
+a {
+    text-decoration: none;
 }
 
 .instagram-logo {

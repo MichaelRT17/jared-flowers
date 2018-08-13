@@ -5,6 +5,7 @@ function ContactPage() {
     return (
         <div>
             <Header />
+            <h1>Contact</h1>
         </div> 
     )
 }

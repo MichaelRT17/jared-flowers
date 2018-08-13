@@ -1,0 +1,9 @@
+.footer-holder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 240px;
+    margin: 0 auto;
+    color: #423D4F;
+}

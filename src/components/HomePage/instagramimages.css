@@ -1,0 +1,15 @@
+.image-row-holder {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 360px;
+    margin: 6px auto 2px;
+}
+
+@media(min-width: 600px){
+    .image-row-holder {
+        width: 1096px
+    }
+}
