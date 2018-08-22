@@ -6,7 +6,7 @@ import ContactPage from './components/ContactPage/ContactPage';
 
 export default (
     <Switch>
-        <Route path='/' component={HomePage} />
+        <Route exact path='/' component={HomePage} />
         <Route path='/about' component={AboutPage} />
         <Route path='/contact' component={ContactPage} />
     </Switch>

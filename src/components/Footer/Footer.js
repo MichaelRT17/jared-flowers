@@ -6,7 +6,9 @@ function Footer() {
     return (
         <div className='footer-holder'>
             <h2>Flowers By Jared</h2>
-            <img className='instagram-logo' src={instagramLogo} alt='instagram link'/>
+            <a href='https://www.instagram.com/jbudlarsen/'>
+            <img className='instagram-logo-footer' src={instagramLogo} alt='instagram link'/>
+            </a>
         </div> 
     )
 }

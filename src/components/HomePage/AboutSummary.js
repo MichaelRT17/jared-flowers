@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './aboutsummary.css'
 
 function AboutSummary() {
@@ -15,7 +16,9 @@ function AboutSummary() {
             are created by our professional florists using the 
             freshest, most beautiful seasonal blooms we can find.
             </p>
+            <Link to='/about' >
             <h4 className='link'>Learn More</h4>
+            </Link >
             <hr className='divider' />
         </div> 
     )
